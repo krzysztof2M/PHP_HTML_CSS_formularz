@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="formularz.css"> 
+</head>
+<body>
+
+<?php
+    $name=$_GET['imie'];
+    $lastname=$_GET['nazwisko'];
+    $gym=$_GET['silownia'];
+    $weight=$_GET['waga'];
+    $exercise=$_GET['cwiczenie'];
+    $load=$_GET['ciezar'];
+    echo ($name ."<br>". $lastname ."<br>". $gym ."<br>". $weight ."<br>". $exercise ."<br>". $load );
+?>
+
+</body>    
+</html>
